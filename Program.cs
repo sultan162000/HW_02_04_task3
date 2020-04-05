@@ -52,31 +52,5 @@ namespace HW_02_04_task3
                 System.Console.WriteLine($"Title: {this.nameTitle}");   
             }
         }
-        class Author
-        {
-            private string nameAuthor { get; set; }
-            public Author (string nameAuthor)
-            {
-                this.nameAuthor = nameAuthor;
-            }
-            public void Show()
-            {
-                Console.ForegroundColor = ConsoleColor.White;
-                System.Console.WriteLine($"Author: {this.nameAuthor}");   
-            }
-        }
-        class Content
-        {
-            private string nameContent { get; set; }
-            public Content (string nameContent)
-            {
-                this.nameContent = nameContent;
-                
-            }
-            public void Show()
-            {
-                Console.ForegroundColor = ConsoleColor.Red;
-                System.Console.WriteLine($"Content: {this.nameContent}");   
-            }
-        }
+        
 }
